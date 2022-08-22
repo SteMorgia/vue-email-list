@@ -11,7 +11,7 @@
     <div id="app">
         <button @click="getMailCasuale()">Genera email casuale</button>
         <ul>
-            <li>{{emailCasuale}}</li>
+            <li v-for="(email, index) in emails">{{emails.index}}</li>
         </ul>
     </div>
 
